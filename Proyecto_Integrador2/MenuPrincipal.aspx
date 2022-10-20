@@ -35,7 +35,7 @@
                         <asp:Button ID="Button5" runat="server" Text="Ciudades-Paises" />
                     </td>
                     <td>
-                        <asp:Button ID="Button6" runat="server" Text="Solicitudes" />
+                        <asp:Button ID="Button6" runat="server" Text="Solicitudes" OnClick="Button6_Click" />
                     </td>
                 </tr>
                 <tr>

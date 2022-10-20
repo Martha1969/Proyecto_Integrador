@@ -7,16 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace Proyecto_Integrador2
 {
-    public partial class MenuPrincipal : System.Web.UI.Page
+    public partial class WFSolicitudes1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        protected void Button6_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("WFSolicitudes1");
 
         }
     }
