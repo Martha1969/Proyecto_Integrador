@@ -16,7 +16,7 @@ namespace Proyecto_Integrador2
 
         protected void Button6_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WFSolicitudes1");
+            Response.Redirect("WFSolicitudes1.aspx");
 
         }
     }
