@@ -1,6 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MenuPrincipal.aspx.cs" Inherits="Proyecto_Integrador2.MenuPrincipal" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("CiudadesPaises.aspx");
+    }
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -32,7 +40,7 @@
                         <asp:Button ID="Button4" runat="server" Text="Productos" />
                     </td>
                     <td colspan="2">
-                        <asp:Button ID="Button5" runat="server" Text="Ciudades-Paises" />
+                        <asp:Button ID="Button5" runat="server" Text="Ciudades-Paises" OnClick="Button5_Click" />
                     </td>
                     <td>
                         <asp:Button ID="Button6" runat="server" Text="Solicitudes" />
