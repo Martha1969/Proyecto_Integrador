@@ -13,5 +13,10 @@ namespace Proyecto_Integrador2
         {
 
         }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PreguntasFrecuentes.aspx");
+        }
     }
 }
