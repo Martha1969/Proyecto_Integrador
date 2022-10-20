@@ -17,33 +17,43 @@
         <div>
             <table style="width:100%;">
                 <tr>
-                    <td>
+                    <td class="auto-style1">
                         <asp:Button ID="Button1" runat="server" Text="Personas" />
                     </td>
-                    <td colspan="2">
+                    <td class="auto-style1" colspan="2">
                         <asp:Button ID="Button2" runat="server" Text="Roles" />
                     </td>
-                    <td>
+                    <td class="auto-style1">
                         <asp:Button ID="Button3" runat="server" Text="Estados" />
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style1" colspan="2">&nbsp;</td>
+                    <td class="auto-style1">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">
                         <asp:Button ID="Button4" runat="server" Text="Productos" />
                     </td>
-                    <td colspan="2">
+                    <td class="auto-style1" colspan="2">
                         <asp:Button ID="Button5" runat="server" Text="Ciudades-Paises" />
                     </td>
-                    <td>
+                    <td class="auto-style1">
                         <asp:Button ID="Button6" runat="server" Text="Solicitudes" />
                     </td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style1" colspan="2">&nbsp;</td>
+                    <td class="auto-style1">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style1" colspan="2">
                         <asp:Button ID="Button7" runat="server" Text="PQRS" />
                     </td>
                     <td class="auto-style1" colspan="2">
-                        <asp:Button ID="Button8" runat="server" Text="Ayuda" />
+                        <asp:Button ID="Button8" runat="server" BackColor="#33CCFF" BorderColor="Blue" BorderStyle="Solid" BorderWidth="3px" OnClick="Button8_Click" Text="Ayuda" Width="180px" />
                     </td>
                 </tr>
             </table>
